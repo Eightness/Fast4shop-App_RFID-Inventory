@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Cómo organizar tus opciones de configuración
+https://developer.android.com/guide/topics/ui/settings/organize-your-settings?hl=es-419
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="prefReader1"
+        android:title="CONFIGURACIÓN DEL READER">
+
+        <EditTextPreference
+            android:key="reader"
+            android:title="Reader"
+            android:summary= "Marca del Reader para API"
+            android:inputType="text"
+            android:defaultValue="Chainway"
+            android:maxLength="15"/>
+        <EditTextPreference
+            android:key="potencia"
+            android:title="Potencia UHF"
+            android:summary= "Potencia 1 - 30 mW"
+            android:inputType="number"
+            android:defaultValue="30"
+            android:maxLength="3"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefReader2"
+        android:title="CONFIGURACION EPC">
+        <EditTextPreference
+            android:key="idxSesion"
+            android:title="Sesion"
+            android:summary= "Indice de array Sesion S0,S1,S2,S3"
+            android:inputType="number"
+            android:defaultValue="1"
+            android:maxLength="1"/>
+        <EditTextPreference
+            android:key="idxTarget"
+            android:title="Estado destino"
+            android:summary= "Indice array estado A,B,AB"
+            android:inputType="number"
+            android:defaultValue="0"
+            android:maxLength="1"/>
+        <EditTextPreference
+            android:key="idxRFLink"
+            android:title="RF Link"
+            android:summary= "Indice array RF Link PR-ASK, Miller..."
+            android:inputType="number"
+            android:defaultValue="2"
+            android:maxLength="1"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

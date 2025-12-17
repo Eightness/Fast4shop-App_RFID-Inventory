@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Este layout permiten como ejemplo en ** TabToolsActivity.java**  cambia los estilos de las pestañas de un Tablayout
+    perol final NO se ha utilizado
+-->
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"/>
+

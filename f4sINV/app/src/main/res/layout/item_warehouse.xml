@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <!-- Contenedor de los textos -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingRight="8dp">
+
+        <TextView
+            android:id="@+id/tvWarehouseCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COD"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvWarehouseDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textSize="16sp"
+            android:textColor="#555555" />
+    </LinearLayout>
+
+    <!-- Botón papelera para eliminar -->
+    <ImageView
+        android:id="@+id/btnDeleteWarehouse"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:contentDescription="Eliminar almacén"
+        android:padding="4dp"/>
+</LinearLayout>

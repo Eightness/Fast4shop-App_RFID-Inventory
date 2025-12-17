@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Cómo organizar tus opciones de configuración
+https://developer.android.com/guide/topics/ui/settings/organize-your-settings?hl=es-419
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref1"
+        android:title="CONFIGURACIÓN DEL SERVIDOR FTP">
+
+    <EditTextPreference
+        android:key="hostFtp"
+        android:title="Servidor FTP"
+        android:summary= "Dirección IP del servidor FTP"
+        android:inputType="number|numberDecimal"
+        android:digits="0123456789."
+        android:defaultValue="192.168.1.43"
+        android:maxLength="15"/>
+    <EditTextPreference
+        android:key="portFtp"
+        android:title="Puerto FTP"
+        android:summary= "Puerto FTP del servidor"
+        android:inputType="number"
+        android:defaultValue="21"
+        android:maxLength="2"/>
+        <EditTextPreference
+            android:key="userFtp"
+            android:title="Usuario"
+            android:summary= "Credenciales del servidor FTP"
+            android:inputType="text"
+            android:defaultValue="f4sFTP"
+            android:maxLength="10"/>
+        <EditTextPreference
+            android:key="passFtp"
+            android:title="Contraseña"
+            android:summary= "Credenciales del servidor FTP"
+            android:inputType="textPassword"
+            android:defaultValue="f4sFTP2601"
+            android:maxLength="10"/>
+        <EditTextPreference
+            android:key="epcROB"
+            android:title="Máscara EPC detección"
+            android:summary= "2 Bytes HEX para detección en puerta"
+            android:inputType="text"
+            android:defaultValue="3008"
+            android:maxLength="10"/>
+        <EditTextPreference
+            android:key="epcINAC"
+            android:title="Máscara EPC inactivado"
+            android:summary= "2 Bytes HEX de etiqueta inactivada"
+            android:inputType="text"
+            android:defaultValue="9999"
+            android:maxLength="10"/>
+        <EditTextPreference
+            android:key="dirFtp"
+            android:title="Carpeta destino"
+            android:summary= "Carpeta en raiz del servidor FTP"
+            android:inputType="text"
+            android:defaultValue="Invf4s"
+            android:maxLength="15"/>
+        <CheckBoxPreference
+            android:key="pitido"
+            android:title="Pitido de nueva etiqueta"
+            android:summary= "Pitido con nuevo EPC no repetido"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref2"
+        android:title="NOMBRAMIENTO DE FICHEROS">
+        <EditTextPreference
+            android:key="ficInv"
+            android:title="Fichero inventario"
+            android:summary= "Nombre de fichero inventario"
+            android:inputType="text"
+            android:defaultValue="INV_f4s.txt"
+            android:maxLength="15"/>
+        <EditTextPreference
+            android:key="ficLog"
+            android:title="Fichero log"
+            android:summary= "Nombre de fichero de actividad log"
+            android:inputType="text"
+            android:defaultValue="INV_f4s.log"
+            android:maxLength="15"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref3"
+        android:title="AJUSTES DE SERVICIO">
+        <CheckBoxPreference
+            android:key="enviosFtp"
+            android:title="Envío al servidor FTP"
+            android:summary= "Pruebas de inventario sin servidor FTP indicar false"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="servicio"
+            android:title="Modalidad de servicio"
+            android:summary= "Para trabajo con técnicos"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
+    <!--
+    https://developer.android.com/reference/android/preference/Preference#summary
+    -->

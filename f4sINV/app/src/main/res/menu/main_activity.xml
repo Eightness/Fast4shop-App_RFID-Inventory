@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/opc_gral"
+            android:orderInCategory="100"
+            android:title="@string/action_pref_gral"
+            android:onClick="onOptionsItemSelected"
+            app:showAsAction="never"/>
+    </group>
+
+    <group android:id="@+id/group2">
+    <item
+        android:id="@+id/opc_reader"
+        android:orderInCategory="100"
+        android:title="@string/action_pref_reader"
+        android:onClick="onOptionsItemSelected"
+        app:showAsAction="never" />
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/opc_borrar_inv"
+            android:orderInCategory="100"
+            android:title="@string/action_pref_borrar_v"
+            android:onClick="onOptionsItemSelected"
+            app:showAsAction="never" />
+    </group>
+</menu>
+
+<!--
+    añadido en cada elemento para qye funcion el menu de opciones:
+    android:onClick="onOptionsItemSelected"
+    ... y TAMPOCO FUNCIONA  - lo quito de nuevo
+    ***********
+
+    <group android:id="@+id/group1" android:checkableBehavior="single" >
+    </group>
+
+
+-->

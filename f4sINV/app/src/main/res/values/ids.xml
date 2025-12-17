@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnScan" type="id"/>
+    <item name="btnStop" type="id"/>
+    <item name="tvResult" type="id"/>
+</resources>
+

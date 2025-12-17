@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    Estos estilos permiten como un ejemplo ** TabToolsActivity.java**  cambiar los estilos de las pestañas de un Tablayout
+    perol final NO se ha utilizado
+
+        <style name="TextAppearance.Tabs" parent="TextAppearance.Design.Tab">
+            <item name="android:textSize">18dp</item>
+            <item name="android:textColor">@android:color/black</item>
+        </style>
+
+        <style name="TextAppearance.Tabs.Selected">
+            <item name="android:textStyle">bold</item>
+        </style>
+    -->
+
+
+</resources>

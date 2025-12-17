@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tagFinderLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:layout_gravity="center"
+    tools:context=".activity.TagFinderActivity">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduzca los datos para localizar la etiqueta."
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/editTextTagId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/c_digo_art_culo"
+        android:inputType="number"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/contador"
+        android:inputType="number"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textViewPowerValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/potencia_0"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarPower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:max="29" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDeactivated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etiqueta_desactivada"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnScanToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:textSize="30sp"
+        android:text="Localizar"
+        android:textColor="@color/white" />
+
+</LinearLayout>

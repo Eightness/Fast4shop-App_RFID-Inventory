@@ -1,0 +1,340 @@
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+reader = Chainway
+potencia = 27
+idxSesion = 0
+idxTarget = 1
+idxRFLink = 0
+%01%-28/02/2024 12:47:38 ->
+%03%-INVENTARIO Sesion: 1
+Versión reader: V6.1.9
+Frecuencia: Idx:4 - ETSI Standard (865-868MHz)
+Potencia: 27 mW
+Id Sesion: Idx:0 - S0
+Target: Idx:1 - B
+Valor Q: Valor Q = 1
+RF Link: Idx:0 - DSB_ASK/FM0/40KHz
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+%01%-28/02/2024 12:48:30 ->
+%03%-INVENTARIO Sesion: 1
+Versión reader: V6.1.9
+Frecuencia: Idx:4 - ETSI Standard (865-868MHz)
+Potencia: 30 mW
+Id Sesion: Idx:1 - S1
+Target: Idx:0 - A
+Valor Q: Valor Q = 1
+RF Link: Idx:2 - PR_ASK/Miller4/300KHz
+Ajuetes generales:
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+Ajuetes del reader:
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+%01%-28/02/2024 12:57:36 ->
+%03%-INVENTARIO Sesion: 1
+Versión reader: V6.1.9
+Frecuencia: Idx:4 - ETSI Standard (865-868MHz)
+Potencia: 30 mW
+Id Sesion: Idx:1 - S1
+Target: Idx:0 - A
+Valor Q: Valor Q = 1
+RF Link: Idx:2 - PR_ASK/Miller4/300KHz
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DEL READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+%01%-28/02/2024 13:09:27 ->
+%03%-INVENTARIO Sesion: 1
+Versión SW Chainway: V6.1.9
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DEL READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+%01%-28/02/2024 13:12:48 ->
+%03%-INVENTARIO Sesion: 1
+Versión SW Chainway: V6.1.9
+Frecuencia: Idx:4 - ETSI Standard (865-868MHz)
+Potencia: 30 mW
+Id Sesion: Idx:1 - S1
+Target: Idx:0 - A
+Valor Q: Valor Q = 1
+RF Link: Idx:2 - PR_ASK/Miller4/300KHz
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2
+AJUSTES GENERALES ---------------
+hostFtp = 192.168.1.43
+portFtp = 21
+userFtp = f4sFTP
+passFtp = f4sFTP2601
+dirFtp = Invf4s
+ficInv = INV_f4s.txt
+ficLog = INV_f4s.log
+enviosFtp = true
+pitido = true
+servicio = false
+epcROB = 3008
+epc999 = 9999
+AJUSTES DE READER: -------------
+reader = Chainway
+potencia = 30
+idxSesion = 1
+idxTarget = 0
+idxRFLink = 2

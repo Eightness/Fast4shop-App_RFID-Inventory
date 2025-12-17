@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- de uhf_readtag_fragment.xml Layout -->
+    <color name="blue1">#2095ac</color>
+    <color name="blue2">#2398bc</color>
+    <color name="black1">#313a4d</color>
+    <color name="gray1">#dbdbdb</color>
+    <color name="red1">#db2627</color>
+    <color name="green">#008000</color>
+
+
+    <!-- de UHFReadTagFragment.java -->
+    <color name="lfile_colorPrimary">#92B4F4</color>
+
+</resources>
+
+<!--
+    <color name="colorPrimary">#D5D1D1</color>
+    <color name="colorPrimaryDark">#FFD7D7</color>
+-->

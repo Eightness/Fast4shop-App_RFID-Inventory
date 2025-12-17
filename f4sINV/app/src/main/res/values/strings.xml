@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Fast4shop_rls</string>
+    <string name="app_name_debug">f4sINV Debug</string>
+    <string name="title_activity">Fast4shop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Inventario Fast4shop</string>
+    <string name="nav_header_subtitle">Sistema RFID</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_pref_gral">AJUSTES GENERALES</string>
+    <string name="action_pref_reader">CONFIGURACIÓN READER</string>
+    <string name="action_pref_borrar_v">BORRAR INVENTARIO EN CURSO</string>
+
+    <!-- Nuevo menu Drawer -->
+    <string name="menu_invCurso">Inventario en curso</string>
+    <string name="menu_inventario">Lecturas RFID y envío</string>
+    <string name="menu_tool">Ficheros</string>
+    <string name="menu_app">Sobre la aplicación</string>
+
+    <string name="menu_tab1">Tab1</string>
+    <string name="menu_tab_activity">Opcion pestañasTab1</string>
+    <string name="menu_uhf">Scan RFID</string>
+
+    <!-- de uhf_readtag_fragment.xml Layout -->
+    <string name="uhf_title_filter">filter</string>
+    <string name="rbInventorySingle">Single</string>
+    <string name="rbInventoryLoop">Auto</string>
+    <string name="tvPtr">Ptr：</string>
+    <string name="tvData_Read">Data：</string>
+    <string name="uhf_msg_r2000_tip">R2000 module only</string>
+    <string name="button_enable">Enable</string>
+    <string name="button_disable">Disable</string>
+    <string name="btInventory">INICIA LECTURAS</string>
+    <string name="btClear">ELIMINA SESIÓN</string>
+    <string name="time_d_s">time：%f s</string>
+    <string name="tvTagUii">EPC</string>
+    <!-- <string name="tvTagLen">Length</string> -->
+    <string name="tvTagCount">ARTÍCULO</string>
+    <string name="tvContEPC">CONTADOR</string>
+    <string name="tvAtencion">Atención!</string>
+
+    <!-- uhf_readtag_fragment2.xml -->
+    <string name="tvTagEtiquetas">Etiquetas de Sesión</string>
+    <string name="tvTotalLecturas">Total en Sesiones</string>
+    <!-- <string name="tvRepeLecturas">(Puede repetidas)</string> -->
+
+    <!-- uhf_readtag_fragment5.xml -->
+    <string name="btSave">GRABAR SESIÓN INVENTARIO</string>
+    <string name="btFtp">ENVIAR INVENTARIO</string>
+
+    <!-- de UIHelper.java -->
+    <string name="close">Cancelar</string>
+    <string name="ok">Confirmar</string>
+    <string name="aceptar">Aceptar</string>
+
+    <!-- de UHFReadTagFragment.java -->
+    <string name="uhf_msg_set_filter_succ">Set the filter success</string>
+    <string name="uhf_msg_set_filter_fail">Set the filter failure</string>
+    <string name="msg_disable_succ">Disable success</string>
+    <string name="msg_disable_fail">Disable fail</string>
+    <string name="title_stop_Inventory">PARAR escaneado</string>
+    <string name="localizador_de_etiquetas">Localizador de etiquetas</string>
+    <string name="potencia">Potencia</string>
+    <string name="c_digo_art_culo">Código Artículo</string>
+    <string name="contador">Contador</string>
+    <string name="etiqueta_desactivada">Etiqueta desactivada</string>
+    <string name="potencia_0">Potencia: 100% (30 dBm)</string>
+    <string name="registrar_almacen">Registrar almacén</string>
+    <string name="iniciar_escaneo">Iniciar escaneo</string>
+    <string name="detener_escaneo">Detener escaneo</string>
+
+
+</resources>

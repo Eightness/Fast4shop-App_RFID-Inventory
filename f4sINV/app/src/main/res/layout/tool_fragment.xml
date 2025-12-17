@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15px"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/gray1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resumen inventario"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15px"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/gray1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:padding="1dp">
+        <ScrollView
+            android:id="@+id/SCROLLER_ID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:fillViewport="true">
+            <TextView
+                android:id="@+id/tv_log"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="No hay registros"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="5dp"
+                android:textSize="15sp"
+                android:layout_weight="1.0"/>
+        </ScrollView>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15px"
+        android:layout_marginTop="1dp"
+        android:background="@color/gray1" />
+
+
+</LinearLayout>
+
+<!--
+
+-->

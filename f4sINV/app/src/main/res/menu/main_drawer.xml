@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/group0" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_warehouseSelector"
+            android:title="@string/registrar_almacen"/>
+        <item
+            android:id="@+id/nav_gestion"
+            android:title="Bajas y Traspasos"/>
+    </group>
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_invCurso"
+            android:title="@string/menu_invCurso"/>
+    </group>
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inventario"
+            android:title="@string/menu_inventario" />
+    </group>
+    <group android:id="@+id/group3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tool"
+            android:title="@string/menu_tool" />
+    </group>
+    <group android:id="@+id/group5" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tagFinder"
+            android:title="@string/localizador_de_etiquetas"/>
+    </group>
+    <group android:id="@+id/group4" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_app"
+            android:title="@string/menu_app" />
+    </group>
+</menu>
+
+<!--
+quitar iconos
+            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_tab_24"
+            android:icon="@drawable/baseline_tab_24"
+
+        <item
+            android:id="@+id/nav_configuracion"
+            android:title="@string/menu_configuracion"/>
+
+-->
